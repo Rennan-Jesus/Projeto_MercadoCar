@@ -31,7 +31,7 @@ public class Administrador {
 
             if (digitado > 2 || digitado < 0) {
 
-                System.out.println("Digite um número correto:");
+                System.out.println("Digite um número corret:");
             }
 
         }while(digitado >2 || digitado< 0);
