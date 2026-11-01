@@ -76,7 +76,10 @@ public class GestaoUsuario {
         else if (digitado == 3) {
             System.out.println("Área de inativação de usuários.");
 
-
+            System.out.println("Digite o CPF do usuario que deseja Inativar");
+            String desativarCpf = entrada.nextLine();
+            System.out.println("Resultado de Inativação: ");
+            System.out.println("O Usuario do CPF: " + desativarCpf + " Foi Inativado com Sucesso" );
         }
     }
 }

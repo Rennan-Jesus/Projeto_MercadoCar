@@ -31,12 +31,15 @@ public class Administrador {
 
             if (digitado > 2 || digitado < 0) {
 
-                System.out.println("Digite um número corret:");
+                System.out.println("Digite um número correto:");
             }
 
         }while(digitado >2 || digitado< 0);
+
         if (digitado == 1){
             GestaoUsuario.gestaoUsuario();
+        } else if ( digitado == 2) {
+            AliquotaEClassificacao.configFiscal();
         }
     }
 }
