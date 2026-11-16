@@ -37,7 +37,10 @@ public class Administrador {
         }while(digitado >2 || digitado< 0);
 
         if (digitado == 1){
-            GestaoUsuario.gestaoUsuario();
+
+
+
+
         } else if ( digitado == 2) {
             AliquotaEClassificacao.configFiscal();
         }
