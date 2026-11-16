@@ -1,12 +1,15 @@
 
 package ProjetoMercadoCar.Adm;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class GestaoUsuario {
 
-    public static void gestaoUsuario() {
+    public static void gestaoUsuario() throws FileNotFoundException {
 
         Scanner entrada = new Scanner(System.in);
 
@@ -37,6 +40,10 @@ public class GestaoUsuario {
 
         // OPÇÃO CADASTRAR
         if (digitado == 1) {
+
+            BufferedReader leitor = new BufferedReader(
+                   new FileReader("usuarios.txt")
+            );
 
             System.out.println("Digite o nome completo:");
             String nome = entrada.nextLine();
