@@ -8,6 +8,7 @@ public class AliquotaEClassificacao {
         Scanner entrada = new Scanner(System.in);
 
 
+
         double icmsrecebido, issrecebido;
 
         /* ICMS */
