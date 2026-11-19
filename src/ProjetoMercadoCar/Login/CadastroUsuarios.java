@@ -19,7 +19,7 @@ public class CadastroUsuarios {
 
         Scanner entrada = new Scanner(System.in);
 
-        File arquivo = new File("usuarios.txt");
+        File arquivo = new File("usuarios.txt" );
 
         if (!arquivo.exists()) {
             arquivo.createNewFile();
@@ -86,7 +86,7 @@ public class CadastroUsuarios {
                     new FileWriter("usuarios.txt", true)
             );
 
-            escritor.write(criarCpf + ";" + criarSenha);
+            escritor.write("Conta Criada pelo clienete: " + criarCpf + ";" + criarSenha);
             escritor.newLine();
 
             escritor.close();
