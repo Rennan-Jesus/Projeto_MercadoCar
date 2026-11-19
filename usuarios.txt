@@ -1,2 +1,4 @@
-2348327894;Renann13
-7835649;Renann01982
+Conta Criada pelo Administrador: REENAN;12345678910;LUCASJUCAS;gerente;ATIVO
+Rennan Felipe;12345678913;Re;cliente;ATIVO
+fELIPE DO Santos Alvez;12345678914;tyui;gerente;INATIVO
+Conta Criada pelo clienete: 57534036895;Renan12345678915
