@@ -1,11 +1,13 @@
 package ProjetoMercadoCar.Adm;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
 public class Administrador {
-    public static void adm() {
+    public static void adm() throws IOException {
 
         Scanner entrada = new Scanner(System.in);
 
@@ -38,7 +40,7 @@ public class Administrador {
 
         if (digitado == 1){
 
-
+        GestaoUsuario.gestaoUsuario();
 
 
         } else if ( digitado == 2) {
